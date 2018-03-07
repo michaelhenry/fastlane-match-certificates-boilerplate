@@ -1,0 +1,3 @@
+*.pem
+*certificate.p12
+*certificate.cer
