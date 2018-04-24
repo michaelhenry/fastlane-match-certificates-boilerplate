@@ -1,3 +1,4 @@
 *.pem
-*certificate.p12
-*certificate.cer
+*.p12
+*.cer
+*.mobileprovision
