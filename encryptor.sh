@@ -32,19 +32,19 @@ read -p "Enter the type of the profile (development/adhoc/enterprise/appstore) :
 case "$profile_type" in
     "development")
         profile_prefix="Development"
-	certificate_type="development"
+        certificate_type="development"
         ;;
     "adhoc")
         profile_prefix="Adhoc"
-	certificate_type="distribution"
+        certificate_type="distribution"
         ;;
     "enterprise")
         profile_prefix="InHouse"
-	certificate_type="enterprise"
+        certificate_type="enterprise"
         ;;
     "appstore")
         profile_prefix="AppStore"
-	certificate_type="distribution"
+        certificate_type="distribution"
         ;;
     *)
         echo "Invalid selection. Choices are (development/adhoc/enterprise/appstore)."
